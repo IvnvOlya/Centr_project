@@ -1,0 +1,187 @@
+* {
+    font-style: "Roboto", sans-serif;
+    
+}
+
+header {
+    height: 90px;
+    width: 1140px;
+    background-color: white;
+}
+
+.flex-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.item_2{
+    align-items: center;
+    justify-content: center;
+    width: 139px;
+    height: 15px;
+    color: #067bb5;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.item_3 {
+    width: 93px;
+    height: 30px;
+    color: #000000;
+    font-family: "Myriad Pro";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.11px;
+    font-size: 14px;
+}
+
+.item_4{
+width: 185px;
+height: 23px;
+color: #2ca1dd;
+font-family: "Gill Sans MT";
+font-size: 24px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.link_4{
+    width: 186px;
+    height: 16px;
+    color: #3b3838;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.subheader {
+    margin-top: 17px;
+    width: 1139px;
+    height: 42px;
+    background-color: #f9f6f6;
+    }
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px; 
+    padding: 5px;
+    list-style-type: none;
+}
+
+.menu_link {
+width: 221px;
+height: 17px;
+color: #000000;
+font-family: "Myriad Pro";
+font-size: 20px;
+font-weight: 400;
+line-height: 35.39px;
+}
+
+.menu_link:hover {
+    color: black;
+}
+
+.promo {
+    margin-top: 47px;
+    min-height: 590px;
+    width: 1140px;
+    background: url(../img/promo.png) center center/cover no-repeat;
+}
+
+h1 {    
+    margin-top: 217px;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+h2 {
+    margin-top: 25px;
+    padding-left: 15px;
+    
+}
+
+
+.flex-container2 {
+    width: 1050px;
+    margin-top: 60px;
+    margin-left: 46px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.logos_item {
+    align-items: center;
+    justify-content: center;
+}
+
+.date {
+    margin-top: 47px;
+    min-height: 200px;
+    width: 1140px;
+    background: url(../img/date.png) center center/cover no-repeat;
+}
+
+ h3 {
+    padding-top: 56px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+form {
+    padding-left: 165px;
+    padding-top: 31px;
+}
+.name, .tel {
+    width: 290px;
+    height: 35px;
+}
+
+.btn {
+    width: 193px;
+    height: 35px;
+}
+
+
+.container {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.plus {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.plus_title {
+
+}
+
+.plus_list {
+    list-style-type: none;
+		padding-left: 20px;
+		margin-top: 22px;
+}
+.plus_1{
+    position: relative;
+	font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
