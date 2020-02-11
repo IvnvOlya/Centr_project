@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>ЦенртПрофМонтаж</title>
 </head>
@@ -172,17 +173,22 @@
 
 
 
-<section class="date">
+<section class="calc">
     <div class="container">
-        <article>
-            <h3 class="date_title">Оставьте заявку на точный расчет</h3>
-                <form action="" class="date_form">
-                <input type="text" name="name" class='name' placeholder=" Ваше имя" size="30"/>
-                <input type="tel" name="phone" class="tel" placeholder=" Номер телефона" size="35"/>
-                <button type="button" class="btn btn-outline-dark">Отправить заявку</button>
-                </form>
-        </article>       
-    </div>
+        <h3 class="calc_expence">Калькулятор расхода</h3>
+        <div class="calc_block">
+            <form action="calc_list" class='calc_form'>    
+                <label class="calc_title_1">Количество проживающих</label>
+            <select onchange="calc()" id="calc_list">
+            <option value="0">Выбрать</option>
+            <option value="5000">2</option>
+            <option value="7000">3</option>
+            <option value="10000">4</option>
+            <option value="5000">5</option>
+            <option value="7000">6</option>
+            <option value="10000">7</option>
+        </select>
+         <div class="calc_price">Стоимость станции: <span id="result">0</span> руб.</div>
 </section>
 <section class="station">
     <div class="container">
@@ -280,6 +286,20 @@
         </div>
     </div>
 </section> 
+
+<section class="date">
+    <div class="container">      
+          <article>
+            <h3 class="date_title">Оставьте заявку на точный расчет!</h3>
+            <form action="" class="date_form">
+            <input type="text" name="name" class='name' placeholder=" Ваше имя" size="30"/>
+            <input type="tel" name="phone" class="tel" placeholder=" Номер телефона" size="35"/>
+            <button type="button" class="btn">Отправить заявку</button>
+            </form>
+           </article>
+    </div>
+</section>
+
 <section class="we">
 <div class="contaienr">
     <h2>Почему именно мы?</h2>
@@ -366,5 +386,6 @@
     <li class="footer_end_link"><a href="">Задать вопрос менеджеру</a></li>
 </ul>
 </footer>
+<script src="js/script.js"></script>
 </body>
 </html>
