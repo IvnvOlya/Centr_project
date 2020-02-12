@@ -26,6 +26,10 @@ header
     height: 15px
     color: #067bb5
     font-size: 16px
+.link
+    &:hover
+        color: black
+        text-decoration: none
 
 .item_3
     width: 93px
@@ -66,21 +70,28 @@ header
     font-size: 20px
     font-weight: 400
     &:hover
-        color: black
-
+        color: #009dd9
+        text-decoration: none
 .promo
     margin-top: 47px
     min-height: 590px
     width: 1263px
-    background: url(../img/promo.png) center (center / cover) no-repeat
+    background: url(../img/promo.png) center (center / cover) no-repeat  
+.row
+    width: 1263px
+    display: flex
+    justify-content: center   
 h1
     margin-top: 217px
     color: #ffffff
     font-size: 60px
-    line-height: 55px
+    line-height: 65px
 h2
     margin-top: 25px
     padding-left: 15px
+
+h3
+    width: 1263px
 
 .flex-container2
     width: 1263px
@@ -89,7 +100,6 @@ h2
     align-items: center
     flex-flow: row nowrap
     justify-content: space-around
-
 .logos
     margin-top: 75px
     &_img
@@ -98,7 +108,6 @@ h2
     &_item
         text-align: center   
 .date
-    width: 1263px
     margin-top: 67px
     min-height: 200px
     background: url(../img/date.png) center (center / cover) no-repeat
@@ -111,7 +120,8 @@ h2
         width: 1263px
         padding-top: 20px
         padding-bottom: 15px
-
+article
+    width: 1263px
 .name, .tel
     width: 290px
     height: 35px
@@ -119,7 +129,6 @@ h2
     font-size: 14px
     font-weight: 400
     line-height: 24px
-
 .btn
     display: block
     margin: 0 auto
@@ -131,7 +140,10 @@ h2
     font-size: 16px
     font-weight: 700
     line-height: 24px
-    border: 0    
+    border: 0
+    &:hover 
+        background-color: #3e8e41
+        color: white
 .flex-container_3
     width: 1263px
 .container
@@ -236,10 +248,10 @@ label
     margin-left: 40px
     &_title
         display: flex
-        justify-content: center
         padding: 25px 0 0 40px
         color: #000000
         font-size: 24px
+
     &_block
         margin-bottom: 15px
         width: 554px
@@ -257,6 +269,7 @@ label
             display: flex
             justify-content: center
             align-items: center
+            width: 554px
 .flex-container_4
     margin-top: 20px
     display: flex
@@ -282,7 +295,7 @@ label
     min-height: 590px
     width: 1263px
 .example_img
-    padding-left: 61px
+    padding-left: 35px
     padding-top: 20px
 .log
     width: 1263px

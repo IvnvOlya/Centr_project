@@ -1,3 +1,5 @@
+"use strict";
+
 function calc() {
     
     let calc_list = document.getElementById("calc_list");
