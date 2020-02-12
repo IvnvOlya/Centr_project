@@ -1,7 +1,7 @@
 function calc() {
-    //получаем ссылку на элемент Select (Тип дизайна)
+    
     let calc_list = document.getElementById("calc_list");
-    //получаем ссылку на чекбокс (Требуется верстка?)
+    
     let result = document.getElementById("result"); 
 
     let price = 0;
@@ -10,3 +10,4 @@ function calc() {
 
     result.innerHTML = price;
 }
+
