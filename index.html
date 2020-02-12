@@ -109,11 +109,11 @@
 <section class="date">
     <div class="container">      
           <article>
-            <h3 class="date_title">Оставьте заявку на консультацию и мы Вам перезвоним!</h3>
+            <h3 class="date_title" id="one">Оставьте заявку на консультацию и мы Вам перезвоним!</h3>
             <form action="" class="date_form">
             <input type="text" name="name" class='name' placeholder=" Ваше имя" size="30"/>
             <input type="tel" name="phone" class="tel" placeholder=" Номер телефона" size="35"/>
-            <button type="button" class="btn">Отправить заявку</button>
+            <button type="button" onclick='document.getElementById("one").innerHTML = "Заявка отправлена!"' class="btn">Отправить заявку</button>
             </form>
            </article>
     </div>
@@ -290,11 +290,11 @@
 <section class="date">
     <div class="container">      
           <article>
-            <h3 class="date_title">Оставьте заявку на точный расчет!</h3>
+            <h3 class="date_title" id='two'>Оставьте заявку на точный расчет!</h3>
             <form action="" class="date_form">
             <input type="text" name="name" class='name' placeholder=" Ваше имя" size="30"/>
             <input type="tel" name="phone" class="tel" placeholder=" Номер телефона" size="35"/>
-            <button type="button" class="btn">Отправить заявку</button>
+            <button type="button" onclick='document.getElementById("two").innerHTML = "C Вами скоро свяжется оператор!"'class="btn">Отправить заявку</button>
             </form>
            </article>
     </div>
